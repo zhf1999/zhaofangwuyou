@@ -1,0 +1,66 @@
+
+
+
+.box{
+    //背景图片
+    section{
+        width: 100%;
+        height: 10rem;
+        background: url(../image/my/bg2.png) no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width: 4rem;
+        }
+        p{
+            color: white;
+            font-size: .9rem;
+        }
+    }
+    //内容
+    article{
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        padding: 0 2rem 0 1rem;
+        box-sizing: border-box;
+        background-color: #fff;
+        a{
+            width: 100%;
+            height: 3rem;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: .9rem;
+            color: #666;
+            img{
+                width: .5rem;
+            }
+            &:last-of-type{
+                border: none;
+            }
+        }
+    }
+    .btm{
+        width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+        display: flex;
+        margin-top: 1rem;
+        a{
+            width: 100%;
+            height: 3rem;
+            border: 1px solid #ccc;
+            color: #FF8A00;
+            text-align: center;
+            line-height: 3rem;
+            background-color: #fff;
+            font-size: .9rem;
+        }
+    }
+}

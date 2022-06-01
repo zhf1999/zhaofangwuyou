@@ -1,0 +1,59 @@
+.box section {
+  width: 100%;
+  height: 10rem;
+  background: url(../image/my/bg2.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.box section img {
+  width: 4rem;
+}
+.box section p {
+  color: white;
+  font-size: 0.9rem;
+}
+.box article {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 0 1rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.box article a {
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+.box article a img {
+  width: 0.5rem;
+}
+.box article a:last-of-type {
+  border: none;
+}
+.box .btm {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 1rem;
+}
+.box .btm a {
+  width: 100%;
+  height: 3rem;
+  border: 1px solid #ccc;
+  color: #FF8A00;
+  text-align: center;
+  line-height: 3rem;
+  background-color: #fff;
+  font-size: 0.9rem;
+}
