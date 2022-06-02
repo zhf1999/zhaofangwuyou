@@ -19,6 +19,7 @@ html {
         width: 100%;
     }
 
+
     //头
     header {
         width: 100%;
@@ -41,11 +42,13 @@ html {
             height: 100%;
             display: flex;
             justify-content: space-evenly;
+
             a {
                 width: 2rem;
-                    height: 2rem;
+                height: 2rem;
+
                 &:nth-of-type(1) {
-                    
+
                     background: url(../image/index/my.jpg) no-repeat;
                     background-size: contain;
                 }
@@ -173,7 +176,12 @@ html {
                         flex: 1;
                         display: flex;
                         flex-direction: column;
-
+                        i{
+                            background-color: #F0F0F0;
+                            width: 100%;
+                            height: 100%;
+                            border-right: 2px solid #ccc;
+                        }
                         a {
                             width: 100%;
                             height: 3rem;
@@ -190,7 +198,7 @@ html {
 
                         a:nth-of-type(2) {
                             border-right: 2px solid #ccc;
-                            height: 100%;
+                            // height: 100%;
                             background-color: #F0F0F0;
                         }
                     }
